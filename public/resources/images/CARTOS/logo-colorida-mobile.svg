@@ -1,0 +1,24 @@
+<svg width="213" height="260" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="262" width="215" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="1" x="1" height="600" width="800"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <style transform="matrix(0.0244140625,0,0,0.0244140625,0,0) " type="text/css">.st0{fill:#024EFF;}
+        .st1{fill:#FFFFFF;}
+        .st2{fill:#FBBA00;}</style>
+  <g stroke="null" id="svg_9">
+   <g stroke="null" transform="matrix(1.5551015734672546,0,0,1.5551015734672546,-24974.199955500662,-18681.26042072475) " id="svg_5">
+    <path stroke="null" id="svg_6" d="m16142.07151,12144.29952c-25.33,-0.86 -45.67,-21.72 -45.67,-47.26c0,-25.54 20.34,-46.4 45.67,-47.26l0,-36.25c-45.38,0.87 -81.9,37.92 -81.9,83.51c0,45.59 36.52,82.64 81.9,83.51l0,-36.25z" class="st1"/>
+    <circle stroke="null" id="svg_7" r="18.21" cy="12119.65952" cx="16178.61151" class="st2"/>
+    <circle stroke="null" id="svg_8" r="18.21" cy="12070.03952" cx="16178.61151" class="st2"/>
+   </g>
+  </g>
+ </g>
+</svg>
