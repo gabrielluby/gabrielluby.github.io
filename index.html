@@ -1,1 +1,54 @@
-Hello World
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <script src="https://cdn.jsdelivr.net/npm/regenerator-runtime@0.13.7/runtime.min.js"></script>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https: localhost:*; script-src 'unsafe-inline' 'unsafe-eval' https: localhost:*; connect-src https: localhost:* ws://localhost:*; style-src 'unsafe-inline' https:; object-src 'none';">
+  <link rel="shortcut icon" id="favicon" href="/resources/images/theme/FINFY/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i,900" rel="stylesheet" />
+  <link rel="stylesheet" href="/resources/fonts/font-icomoon/style.css" />
+  <link rel="stylesheet" href="/resources/fonts/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="/resources/fonts/font-linearicons/style.css" />
+  <meta name="importmap-type" content="systemjs-importmap" />
+  <script type="systemjs-importmap">{
+    "imports": {
+      "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js"
+    }
+  }</script>
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script">
+  <script type="systemjs-importmap">{
+    "imports": {
+      "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
+      "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
+      "react-router-dom": "https://unpkg.com/react-router-dom@5.2.0/umd/react-router-dom.min.js"
+    }
+  }</script>
+  <script type="systemjs-importmap">{
+    "imports": {
+      "@mfe-backoffice-root-config": "http://localhost:9000/mfe-backoffice-root-config.js",
+      "@mfe-backoffice-utils": "http://127.0.0.1:5500/mfe-backoffice-utils/dist/mfe-backoffice-utils.js",
+      "@mfe-backoffice-dashboard": "http://localhost:9002/mfe-backoffice-dashboard.js",
+      "@mfe-backoffice-navigation": "http://localhost:5500/mfe-backoffice-navigation/dist/mfe-backoffice-navigation.js"
+    }
+  }</script>
+  <script src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.2.0/dist/import-map-overrides.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script>
+</head>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+  <main>
+    <section id="topbar"></section>
+    <section id="content"></section>
+  </main>
+  <script>
+    System.import('@mfe-backoffice-root-config');
+  </script>
+  <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
+</body>
+
+</html>
